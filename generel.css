@@ -14,7 +14,7 @@ h2 {
 h3 {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 2rem;
-  letter-spacing: 5px;
+  letter-spacing: 25px;
 }
 
 h4 {
@@ -22,4 +22,9 @@ h4 {
 }
 a {
   font-family: "Hind Guntur", sans-serif;
+}
+p {
+  font-family: "Yrsa", serif;
+  line-height: 1.5rem;
+  text-wrap: pretty;
 }
