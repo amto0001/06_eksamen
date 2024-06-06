@@ -11,7 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="layout.css">
-    <link rel="script.js" href="script.js">
+    <link rel="stylesheet" href="style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -20,40 +20,44 @@
 </head>
 
 <body>
-
     <header>
-        <div class="menu-line">
+        <div class="flex_menu">
             <div class="logo">
-                <img src="billeder/logo.png" alt="Logo">
+                <a href="/"><img src="billeder/logo.png" alt="Logo">
+                </a>
             </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">FORSIDE</a></li>
+                    <li><a href="ommig.html">OM MIG</a></li>
+                    <li><a href="projekter.html">PROJEKTER</a></li>
+                </ul>
 
-
-            <div class="burger-menu" onclick="toggleDropdown()">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-            <div class="dropdown-content" id="dropdown-content">
-                <!-- Dropdown content skrives herunder-->
-                <nav>
-                    <ul>
-                        <li><a href="index.html">FORSIDE</a></li>
-                        <li><a href="ommig.html">OM MIG</a></li>
-                        <li><a href="projekter.html">PROJEKTER</a></li>
-                    </ul>
-                </nav>
-            </div>
-
+                <div class="burger">
+                    <div class="line"></div>
+                </div>
+            </nav>
         </div>
     </header>
+    <nav class="mobil_nav">
+        <a href="index.html">FORSIDE</a>
+        <a href="ommig.html">OM MIG</a>
+        <a href="projekter.html">PROJEKTER</a>
+
+    </nav>
+    <main>
+        <H1>PORTFOLIO</H1>
+        <img src="figur/AMANDA.png" alt="amanda">
+        <img src="figur/prikker/orange_vertikal.png" alt="orange_vertikal">
+        <a href="projekter.html">
+            <img src="billeder/knap_projekter.png" alt="knap_projekter"></a>
+        <h4>OM MIG</h4>
+    </main>
 
 
-    <main></main>
+    <footer></footer>
 
-    <footer>
-
-    </footer>
-
+    <script src="java.js"></script>
 </body>
 
 </html>

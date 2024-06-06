@@ -1,0 +1,109 @@
+/*************** RESET *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+body {
+  background-image: url(baggrund/baggrund_forside.png);
+}
+
+/**************** MENU ********************/
+
+.flex_menu {
+  display: flex;
+  background-image: url(billeder/forside_hero.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.logo img {
+  height: 50px;
+  margin: 5px;
+}
+
+nav {
+  position: absolute;
+  right: 5%;
+  overflow: hidden;
+}
+
+.menu {
+  display: none;
+}
+
+/* -------------- BURGER ------------- */
+.burger {
+  margin: 20px;
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 99; /* gør så den altid ligger øverst*/
+}
+
+.burger .line,
+.burger::after,
+.burger::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin: 5px 0;
+  transition: 0.2s;
+}
+.mobil_nav {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  z-index: 98;
+  background-color: transparent;
+  padding-top: 120px;
+  transition: 0.4s;
+}
+
+.mobil_nav.is-active {
+  left: 0;
+}
+
+.mobil_nav a {
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .menu {
+    margin: 30px;
+    display: flex;
+    list-style: none;
+  }
+  .menu a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  .menu a:hover {
+    color: #000;
+  }
+  .burger {
+    display: none;
+  }
+  .flex_menu {
+    min-height: 650px;
+  }
+}
+
+/********** FORSIDE **************/
