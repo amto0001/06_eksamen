@@ -42,6 +42,12 @@ h6 {
 }
 a {
   font-family: "Hind Guntur", sans-serif;
+  text-decoration: none;
+}
+.her {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 5px;
+  color: #e47b1e;
 }
 p {
   font-family: "Yrsa", serif;
