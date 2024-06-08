@@ -295,6 +295,8 @@ nav {
 }
 
 @media screen and (min-width: 800px) {
+  /************ FORSIDE ************/
+
   .herotext {
     font-size: 8rem;
     top: 80%;
@@ -315,5 +317,20 @@ nav {
   }
   .om_mig h3 {
     font-size: 4rem; /* Juster til den ønskede størrelse for større skærme */
+  }
+  /************ OM MIG ************/
+  .overskrift {
+    text-align: center;
+    color: #fff;
+    font-size: 8rem;
+  }
+  .tekst {
+    margin-left: 25%;
+    text-wrap: pretty;
+    width: 50%;
+    line-height: 2rem;
+    margin-top: 30px;
+  }
+  .grid_1_1 {
   }
 }
