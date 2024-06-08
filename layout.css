@@ -157,7 +157,7 @@ nav {
   color: white;
 }
 
-.lottiefile{
+.lottiefile {
   margin: 20px;
 }
 
@@ -187,9 +187,13 @@ nav {
   writing-mode: vertical-rl; /* rotere teksten 90 grader */
   text-orientation: upright; /* bogstaverne står oprejst */
   white-space: nowrap; /* undgår flere linjer */
-  color: #e47b1e;
   gap: 50px;
   text-decoration: none;
+}
+
+.om_mig h3 {
+  font-size: 2rem; /* Juster til den ønskede størrelse */
+  color: #e47b1e;
 }
 
 /**************OM MIG*****************/
@@ -296,28 +300,20 @@ nav {
     top: 80%;
   }
 
- 
+  .img1 {
+    width: 40px;
+    margin-left: 250px;
+    padding-top: 440px;
+  }
 
-}
+  .img2 {
+    width: 400px;
+  }
 
-/* .img1 {
-  width: fit-content;
-  grid-column: 1/2;
-  grid-row: 2/3;
-  margin-left: 50px;
+  .om_mig {
+    padding-top: 80px;
+  }
+  .om_mig h3 {
+    font-size: 4rem; /* Juster til den ønskede størrelse for større skærme */
+  }
 }
-.img2 {
-  grid-column: 2/4;
-  grid-row: 1/4;
-  margin-right: 70px;
-}
-.om_mig {
-  grid-column: 4/5;
-  grid-row: 2/3;
-  writing-mode: vertical-rl; /* rotere teksten 90 grader */
-  text-orientation: upright; /* bogstaverne står oprejst */
-  white-space: nowrap; /* undgår flere linjer */
-  color: #e47b1e;
-  gap: 50px;
-  text-decoration: none;
-} */
