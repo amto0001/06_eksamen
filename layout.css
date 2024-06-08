@@ -42,8 +42,9 @@ body {
 .flex_menu2 {
   display: flex;
   background-image: url(billeder/forside_hero.png);
-  background-position: right;
+  background-size: cover;
   background-repeat: no-repeat;
+  min-height: 200px;
 }
 
 .flex_menu3 {
@@ -140,6 +141,9 @@ nav {
 .footertekst {
   color: #626262;
   text-align: center;
+  font-weight: lighter;
+  font-size: 0.7rem;
+  margin-top: 80px;
 }
 
 /********** FORSIDE **************/
@@ -185,28 +189,51 @@ nav {
 
 /**************OM MIG*****************/
 
-.faerdigheder {
+.ommig {
+  color: #fff;
   margin: 20px;
-  color: #e47b1e;
-  line-height: 2rem;
+  margin-top: 80px;
 }
-
-.herofigur {
-  position: absolute;
-  margin: 20px;
-  color: #1846d0;
-  letter-spacing: 5px;
-  line-height: 2rem;
-}
-
 .grid_1_1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  position: absolute;
+  grid-template-columns: 2fr 1fr;
   color: #e47b1e;
+  margin-left: 80px;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 .img_prik {
   width: fit-content;
+}
+
+.right_text {
+  text-align: right;
+  margin: 20px;
+}
+
+.portraet {
+  width: 400px;
+  margin: 20px;
+}
+.faerdigheder {
+  gap: 20px;
+  margin: 20px;
+  margin-top: 80px;
+  color: #e47b1e;
+  line-height: 2rem;
+}
+.figur {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 20px;
+  color: #1846d0;
+  letter-spacing: 10px;
+  line-height: 2rem;
+}
+.figur2 {
+  display: grid;
+  gap: 15px;
+  width: 100px;
 }
 
 /**************PROJEKTER*****************/
