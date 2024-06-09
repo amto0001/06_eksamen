@@ -234,11 +234,13 @@ nav {
 .figur {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-row: 1/2;
   margin: 20px;
   color: #1846d0;
   letter-spacing: 10px;
   line-height: 2rem;
 }
+
 .figur2 {
   display: grid;
   gap: 15px;
@@ -253,7 +255,7 @@ nav {
   top: 7%;
   transform: translate(-50%, -50%);
   font-size: 4rem;
-  color: ;
+  color: #e47b1e;
 }
 
 .img_prik2 {
@@ -264,7 +266,8 @@ nav {
   width: 20%;
 }
 .tema2 {
-  margin: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .tema3 {
   margin: 20px;
@@ -282,16 +285,19 @@ nav {
   margin-top: 20px;
   margin-bottom: 50px;
   color: #1846d0;
+  max-width: 70ch;
 }
 .p2 {
   margin-top: 20px;
   margin-bottom: 50px;
   color: #fff;
+  max-width: 70ch;
 }
 .p3 {
   margin-top: 20px;
   margin-bottom: 50px;
   color: #e47b1e;
+  max-width: 70ch;
 }
 
 @media screen and (min-width: 800px) {
@@ -316,7 +322,7 @@ nav {
     padding-top: 80px;
   }
   .om_mig h3 {
-    font-size: 4rem; /* Juster til den ønskede størrelse for større skærme */
+    font-size: 4rem;
   }
   /************ OM MIG ************/
   .overskrift_1 {
@@ -325,16 +331,63 @@ nav {
     font-size: 8rem;
   }
   .tekst {
-    margin-left: 25%;
+    margin-left: 30%;
     text-wrap: pretty;
     width: 50%;
     line-height: 2rem;
     margin-top: 30px;
+    max-width: 70ch;
   }
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 2fr;
     text-align: right;
-    margin-left: 60%;
+    margin-left: 65%;
+  }
+  .figur {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+
+  /***********PROJEKT**********/
+
+  .herotext5 {
+    top: 4%;
+    font-size: 8rem;
+  }
+  .tema2_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 70px;
+  }
+  .tema2_h {
+    font-size: 5rem;
+    text-align: left;
+    margin-left: 50px;
+  }
+  .img_prik2 {
+    max-width: 100px;
+  }
+  .tema3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    gap: 30px;
+  }
+  .tema3_h {
+    font-size: 15rem;
+    text-align: right;
+    margin-right: 50px;
+  }
+  .tema4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tema5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
