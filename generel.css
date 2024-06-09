@@ -54,3 +54,11 @@ p {
   line-height: 1.5rem;
   text-wrap: pretty;
 }
+
+@media screen and (min-width: 800px) {
+  h2 {
+    font-family: "Hind Guntur", sans-serif;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+}
