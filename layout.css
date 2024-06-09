@@ -345,6 +345,7 @@ nav {
   }
   .h3_text {
     font-size: 3rem;
+    margin-left: 30px;
   }
   .right_text {
     font-size: 1.5rem;
@@ -353,8 +354,7 @@ nav {
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    text-align: right;
-    margin-left: 65%;
+    text-align: left;
   }
 
   .container {
