@@ -332,7 +332,7 @@ nav {
   /************ OM MIG ************/
   .overskrift_1 {
     text-align: center;
-    color: #fff;
+    color: #efff;
     font-size: 8rem;
   }
   .tekst {
@@ -343,6 +343,13 @@ nav {
     margin-top: 30px;
     max-width: 70ch;
   }
+  .h3_text {
+    font-size: 3rem;
+  }
+  .right_text {
+    font-size: 1.5rem;
+  }
+
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 2fr;
