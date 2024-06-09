@@ -71,7 +71,9 @@ nav {
 }
 
 .forside_menu {
-  outline: #fff;
+  outline: 2px solid;
+  color: #fff;
+  border-radius: 0.5rem;
 }
 
 /********* BURGER ********/
