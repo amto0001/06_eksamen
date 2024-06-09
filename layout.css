@@ -70,6 +70,10 @@ nav {
   display: none;
 }
 
+.forside_menu {
+  outline: #fff;
+}
+
 /********* BURGER ********/
 .burger {
   margin: 20px;
@@ -290,19 +294,19 @@ nav {
   margin-top: 20px;
   margin-bottom: 50px;
   color: #1846d0;
-  max-width: 70ch;
+  max-width: 65ch;
 }
 .p2 {
   margin-top: 20px;
   margin-bottom: 50px;
   color: #fff;
-  max-width: 70ch;
+  max-width: 65ch;
 }
 .p3 {
   margin-top: 20px;
   margin-bottom: 50px;
   color: #e47b1e;
-  max-width: 70ch;
+  max-width: 65ch;
 }
 
 @media screen and (min-width: 800px) {
@@ -390,31 +394,80 @@ nav {
   .tema2_h {
     font-size: 5rem;
     text-align: left;
-    margin-left: 50px;
   }
   .img_prik2 {
     max-width: 100px;
   }
+
+  .tema2 {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+  }
+
+  .p1 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .p2 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .p3 {
+    font-size: 1.2rem;
+  }
   .tema3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
     margin-bottom: 70px;
     gap: 30px;
   }
   .tema3_h {
+    margin-left: 60px;
     font-size: 15rem;
-    text-align: right;
-    margin-right: 50px;
+    text-align: left;
   }
   .tema4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 70px;
+    gap: 30px;
+  }
+
+  .tema4_h {
+    font-size: 5rem;
+    text-align: right;
+    margin-right: 65px;
   }
 
   .tema5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 70px;
+    gap: 30px;
   }
+
+  .overskrift {
+    font-size: 15rem;
+    text-align: right;
+    margin-left: 70px;
+  }
+
+  /*   .img_prik2 {
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+} */
 }
