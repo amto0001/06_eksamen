@@ -226,40 +226,41 @@ nav {
 }
 .container {
   margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr; /* Starter som en enkelt kolonne på små skærme */
+  gap: 20px;
 }
 
 .container2 {
-  display: flex;
-  grid-template-columns: 3fr 2fr;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: fit-content;
 }
 
 .col1 {
-  width: 400px;
+  width: 350px;
   margin: 20px;
 }
 .col2 {
-  gap: 20px;
   margin: 20px;
-  margin-top: 80px;
+  margin-top: 40px;
   color: #e47b1e;
   line-height: 2rem;
 }
 
 .col3 {
-  margin-left: 20px;
-  grid-row: 1/2;
   color: #1846d0;
-  letter-spacing: 10px;
-  line-height: 2rem;
+  letter-spacing: 2px;
+  width: fit-content;
+  margin-left: 20px;
+  text-overflow: ellipsis;
 }
 
 .col4 {
-  display: grid;
-  margin-left: 60px;
-  gap: 0;
-  width: 100px;
-  height: 197px;
-  margin-top: 5px;
+  width: fit-content;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 /**************PROJEKTER*****************/
@@ -362,15 +363,14 @@ nav {
   }
 
   .grid_1_1 {
-    display: flex;
-    grid-template-columns: 1fr 2fr;
+    flex-direction: row;
     text-align: left;
   }
 
   .container {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr 2fr; /* Tre kolonner layout på større skærme */
     gap: 0px 0px;
+    align-content: space-around;
   }
 
   .col2 {
@@ -384,31 +384,28 @@ nav {
   .col1 {
     /*billede*/
     grid-column: 1/2;
-    grid-row: 2/3;
-    width: 100%;
+    grid-row: 1/4;
+    width: auto;
   }
   .container2 {
-    display: flex;
+    display: grid;
     grid-column: 2/4;
-    grid-row: 2/3;
-    margin-left: 10%;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
   }
 
   .col3 {
     /*punkter*/
     color: #1846d0;
-    letter-spacing: 20px;
-    line-height: 5.1rem;
-    font-size: 1.5rem;
+    letter-spacing: 8px;
+    font-size: 1.2em;
   }
-
   .col4 {
     display: grid;
-    margin-left: 70px;
-    width: 170px;
-    height: auto;
-    margin-top: 30px;
+    width: 70%;
   }
+
   /***********PROJEKT**********/
 
   .herotext5 {
