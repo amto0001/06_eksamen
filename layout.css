@@ -281,38 +281,29 @@ nav {
   margin-right: auto;
   width: 20%;
 }
-.tema2 {
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 50px;
+.tema2_4 {
+  margin: 40px;
 }
 .tema3 {
-  margin: 20px;
+  margin: 40px;
 }
-.tema4 {
-  margin: 20px;
-}
+
 .tema5 {
-  margin: 20px;
+  margin: 40px;
 }
-.overskrift {
+.tema5_h {
+  margin: 40px;
   color: #e47b1e;
 }
 .p1 {
-  margin-top: 20px;
-  margin-bottom: 50px;
   color: #1846d0;
   max-width: 65ch;
 }
 .p2 {
-  margin-top: 20px;
-  margin-bottom: 50px;
   color: #fff;
   max-width: 65ch;
 }
 .p3 {
-  margin-top: 20px;
-  margin-bottom: 50px;
   color: #e47b1e;
   max-width: 65ch;
 }
@@ -418,6 +409,7 @@ nav {
     top: 4%;
     font-size: 8rem;
   }
+  /*samme layout for tema 2 + 4*/
 
   .tema2_4 {
     display: grid;
@@ -425,11 +417,11 @@ nav {
     gap: 50px;
     margin: 50px;
   }
-  .tema2_h {
+  .tema2_4_h {
     font-size: 5rem;
     text-align: left;
   }
-
+  /*tema 3*/
   .tema3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -448,49 +440,31 @@ nav {
     grid-column: 1/2;
     grid-row: 1/2;
   }
-
-  .tema4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 70px;
-    gap: 30px;
-  }
-
-  .tema4_h {
-    font-size: 5rem;
-    text-align: right;
-    margin-right: 65px;
-  }
+  /*tema 5*/
 
   .tema5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 70px;
+    margin: 50px;
     gap: 30px;
   }
-
-  .overskrift {
+  .tema5_h {
+    color: #e47b1e;
     font-size: 15rem;
     text-align: center;
-    margin-left: 70px;
+    margin-top: 50px;
   }
+  /*overordnet projekt*/
+
   .img_prik2 {
     max-width: 100px;
   }
   .p1 {
     font-size: 1.2rem;
-    margin-top: 0;
-    margin-bottom: 0;
   }
 
   .p2 {
     font-size: 1.2rem;
-    margin-top: 0;
-    margin-bottom: 0;
   }
 
   .p3 {
