@@ -150,6 +150,12 @@ nav {
   font-size: 0.7rem;
   margin-top: 80px;
 }
+.footertekst2 {
+  color: #626262;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 0.7rem;
+}
 
 /********** FORSIDE **************/
 
@@ -475,5 +481,13 @@ nav {
 
   .p3 {
     font-size: 1.2rem;
+  }
+
+  /*********FOOTER**********/
+  .footertekst {
+    font-size: 1rem;
+  }
+  .footertekst2 {
+    font-size: 1rem;
   }
 }
