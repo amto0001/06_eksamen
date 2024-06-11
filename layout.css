@@ -296,14 +296,20 @@ nav {
   color: #e47b1e;
 }
 .p1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: #1846d0;
   max-width: 65ch;
 }
 .p2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: #fff;
   max-width: 65ch;
 }
 .p3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: #e47b1e;
   max-width: 65ch;
 }
@@ -349,7 +355,7 @@ nav {
     width: 50%;
     line-height: 2rem;
     margin-top: 30px;
-    max-width: 70ch;
+    max-width: 75ch;
   }
   .h3_text {
     font-size: 3rem;
