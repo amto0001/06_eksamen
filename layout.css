@@ -111,7 +111,7 @@ nav {
 
 .mobil_nav a {
   display: block;
-  color: white;
+  color: #e47b1e;
   text-align: center;
 }
 
@@ -127,7 +127,7 @@ nav {
     text-decoration: none;
   }
   .menu a:hover {
-    color: #000;
+    color: #626262;
   }
   .burger {
     display: none;
@@ -214,6 +214,10 @@ nav {
   color: #fff;
   margin: 20px;
   margin-top: 80px;
+}
+
+.tekst {
+  color: #1846d0;
 }
 .grid_1_1 {
   display: flex;
@@ -362,6 +366,7 @@ nav {
     line-height: 2rem;
     margin-top: 30px;
     max-width: 75ch;
+    color: #fff;
   }
   .h3_text {
     font-size: 3rem;
