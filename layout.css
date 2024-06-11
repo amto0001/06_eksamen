@@ -49,10 +49,10 @@ body {
 
 .flex_menu3 {
   display: flex;
-  background-image: url(billeder/projekter_hero.png);
+  background-image: url(baggrund/baggrund_om_mig.png);
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 300px;
+  min-height: 100px;
 }
 
 .logo img {
@@ -266,10 +266,9 @@ nav {
 /**************PROJEKTER*****************/
 
 .herotext5 {
-  position: absolute;
-  left: 50%;
-  top: 7%;
-  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
   font-size: 4rem;
   color: #e47b1e;
 }
@@ -390,9 +389,7 @@ nav {
   .container2 {
     display: grid;
     grid-column: 2/4;
-    margin-top: 50px;
     margin-left: 50px;
-    align-items: center;
   }
 
   .col3 {
@@ -400,10 +397,12 @@ nav {
     color: #1846d0;
     letter-spacing: 8px;
     font-size: 1.2em;
+    margin-bottom: 10px;
   }
   .col4 {
     display: grid;
     width: 70%;
+    margin-bottom: 20px;
   }
 
   /***********PROJEKT**********/
